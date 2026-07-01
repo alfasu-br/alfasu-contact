@@ -1,7 +1,7 @@
 const revealItems = document.querySelectorAll(".reveal");
 
 revealItems.forEach((item, index) => {
-  item.style.animationDelay = `${index * 90}ms`;
+  item.style.animationDelay = `${index * 150}ms`;
   requestAnimationFrame(() => item.classList.add("is-visible"));
 });
 
